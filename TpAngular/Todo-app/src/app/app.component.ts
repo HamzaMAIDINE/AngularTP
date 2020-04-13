@@ -41,7 +41,8 @@ export class AppComponent {
       label: newLabel,
       priority: 2,
       done: false
-    }
+    };
+    this.todos.push(newTodo);
   }
 
   deleteTodo(todo){
